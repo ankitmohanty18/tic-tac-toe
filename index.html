@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header>TIC TAC TOE</header>
+      <div class="row-1">
+        <button onClick="myfunc(this.id)" class="sq" id="1"></button>
+        <button onClick="myfunc(this.id)" class="sq" id="2"></button>
+        <button onClick="myfunc(this.id)" class="sq" id="3"></button>
+      </div>
+      <div class="row-2">
+        <button onClick="myfunc(this.id)" class="sq" id="4"></button>
+        <button onClick="myfunc(this.id)" class="sq" id="5"></button>
+        <button onClick="myfunc(this.id)" class="sq" id="6"></button>
+      </div>
+      <div class="row-3">
+        <button onClick="myfunc(this.id)" class="sq" id="7"></button>
+        <button onClick="myfunc(this.id)" class="sq" id="8"></button>
+        <button onClick="myfunc(this.id)" class="sq" id="9"></button>
+      </div>
+      <div id="turn">Player X Turn</div>
+      <div id="Winner"></div>
+      <button id="btnRefresh" onClick="handleRefresh()" type="button">
+        Restart
+      </button>
+    </div>
+  </body>
+</html>
